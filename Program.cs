@@ -7,7 +7,7 @@ namespace SvanteSarahsApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("dir");
+            Console.WriteLine("dirdirdir");
         }
     }
 }
