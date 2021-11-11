@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace NUnitTestSvanteSarhasApp
+namespace NUnitTestSvanteSarahsApp
 {
     public class Tests
     {
