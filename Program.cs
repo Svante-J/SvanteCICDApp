@@ -7,6 +7,7 @@ namespace SvanteSarahsApp
         public static void Main()
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("fsfs");
             //var runlogig = 
             
         }
