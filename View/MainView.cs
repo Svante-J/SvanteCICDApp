@@ -4,11 +4,14 @@ using System.Text;
 
 namespace SvanteSarahsApp.View
 {
+
     class MainView
     {
         public void Run()
         {
-            Console.WriteLine("enter enter");
+            Console.WriteLine("Login");
+
+            // logg in or register
         }
     }
 }

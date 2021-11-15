@@ -6,7 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="NUnit" Version="3.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>
