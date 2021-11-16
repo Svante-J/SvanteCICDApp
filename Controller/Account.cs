@@ -5,28 +5,18 @@ using System.Text;
 
 namespace SvanteSarahsApp.Controller
 {
-     abstract class Account
+     public interface IAccount
      { 
-         private static int CurrentID { get; set; }
-         private int ID;
-        private string Name;
-        private string Password;
-        private string Role;
-        private int Salary;
-        private bool IsAdmin;
-
-        public Account(string name, string password, int salary)
-        {
-            this.ID = GetNextID();
-            this.Name = name;
-            this.Password = password;
-            this.Salary = salary;
-        }
+        public static int CurrentID { get; set; }
+         public int ID { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
+        public int Salary { get; set; }
+        public bool IsAdmin { get; set; }
+        
         protected int GetNextID() => ++CurrentID;
-        //public int Id { get => id; set => id = value; }
-        //public string Name { get => name; set => name = value; }
-        //public int Salary { get => salary; set => salary = value; }
-        //private bool IsAdmin { get => isAdmin; set => isAdmin = value; }
+       
     }
 
   
