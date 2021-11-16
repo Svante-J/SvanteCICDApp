@@ -8,9 +8,9 @@ namespace SvanteSarahsApp.Utility
     public class MockData
     {
         
-        public List<object> MockList()
+        public static List<IAccount> MockList()
         {
-            List<object> mockList = new List<object>();
+            List<IAccount> mockList = new List<IAccount>();
             mockList.Add(new User()
             {
                 Name = "",
@@ -23,10 +23,12 @@ namespace SvanteSarahsApp.Utility
                 Name = "admin1",
                 Password = "admin1234",
                 Role = "Admin",
-                Salary = 500000
-            });
+                IsAdmin = true
+
+            }) ;
 
             return mockList;
         }
+       
     }
 }

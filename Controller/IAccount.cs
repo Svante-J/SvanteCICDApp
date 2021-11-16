@@ -12,7 +12,7 @@ namespace SvanteSarahsApp.Controller
         public string Name { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
-        public int Salary { get; set; }
+        
         public bool IsAdmin { get; set; }
         
         protected int GetNextID() => ++CurrentID;

@@ -7,22 +7,21 @@ namespace SvanteSarahsApp.Controller
     class Admin : IAccount
     {
         public static int CurrentID { get; set; }
-        public int ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Password { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Role { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int Salary { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool IsAdmin { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-   
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
+        
+        public bool IsAdmin { get; set; }
 
-    public Admin(string name, string password)
+        public Admin(string name, string password)
     {
 
         this.ID = GetNextID();
         this.Name = name;
         this.Password = password;
         this.Role = "clerk";
-        this.Salary = 24000;
+        
         this.IsAdmin = false;
     }
         public Admin()

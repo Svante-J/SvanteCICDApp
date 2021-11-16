@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace SvanteSarahsApp.View
 {
 
@@ -16,10 +17,13 @@ namespace SvanteSarahsApp.View
             Console.WriteLine("Login");
             User user = new User("banan", "1234banan");
             Console.WriteLine(user.ToString());
+            List<object> mockList = new List<object>();
+            //var reciver = MockData.Caman();
+            var emplyeeList = MockData.MockList();
 
-           // var emplyeeList = MockData.MockList();
-
+           
             // logg in or register
+            
         }
     }
 }
