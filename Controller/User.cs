@@ -12,13 +12,25 @@ namespace SvanteSarahsApp.Controller
         public int Salary { get; set; }
         public bool IsAdmin { get; set; }
 
-        public User(string name, string password, int salary)
+        public User(string name, string password)
         {
+            
             this.ID = GetNextID();
             this.Name = name;
             this.Password = password;
-            this.Salary = salary;
+            this.Role = "clerk";
+            this.Salary = 24000;
             this.IsAdmin = false;
+        }
+
+        public User()
+        {
+            this.ID = GetNextID();
+        }
+
+        public override string ToString()
+        {
+            return "Person: " + Name + " " + Password;
         }
 
         protected int GetNextID() => ++CurrentID;

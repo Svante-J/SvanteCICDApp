@@ -16,7 +16,9 @@ namespace SvanteSarahsApp.Controller
         public bool IsAdmin { get; set; }
         
         protected int GetNextID() => ++CurrentID;
+
        
+
     }
 
   
