@@ -17,6 +17,14 @@ namespace SvanteSarahsApp.Controller
         
         protected int GetNextID() => ++CurrentID;
 
+        public static void PrintAll(List<IAccount> list)
+        {
+            foreach (var item in list)
+            {
+                Console.WriteLine(item.Name + item.Role + item.Password);  
+            }
+        }
+
        
 
     }

@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
+using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace SvanteSarahsApp.Controller
 {
@@ -23,9 +25,22 @@ namespace SvanteSarahsApp.Controller
             this.IsAdmin = false;
         }
 
+        internal static bool FindUser()
+        {
+            throw new NotImplementedException();
+        }
+
         public User()
         {
             this.ID = GetNextID();
+        }
+
+        public static void PrintAll(List<IAccount> list)
+        {
+            foreach (var item in list)
+            {
+                Console.WriteLine(item.Name + item.Role + item.Password);
+            }
         }
 
         public override string ToString()

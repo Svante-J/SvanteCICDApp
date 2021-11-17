@@ -13,17 +13,17 @@ namespace SvanteSarahsApp.View
         
         public void Run()
         {
-            List<object> employeeList = new List<object>();
-            Console.WriteLine("Login");
-            User user = new User("banan", "1234banan");
-            Console.WriteLine(user.ToString());
-            List<object> mockList = new List<object>();
-            //var reciver = MockData.Caman();
-            var emplyeeList = MockData.MockList();
+            MockData.mockList = MockData.FillMockList();// användare o Admin
+            MenuOptions.Welcome();
+            while (true) { 
+            MenuOptions.LoggIn();
 
-           
+            }
+
+            //User.PrintAll(MockData.mockList);
+            //IAccount.PrintAll(MockData.mockList);
             // logg in or register
-            
+
         }
     }
 }

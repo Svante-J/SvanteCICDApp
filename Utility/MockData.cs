@@ -7,15 +7,15 @@ namespace SvanteSarahsApp.Utility
 {
     public class MockData
     {
-        
-        public static List<IAccount> MockList()
+        public static List<IAccount> mockList;
+        public static List<IAccount> FillMockList()
         {
             List<IAccount> mockList = new List<IAccount>();
             mockList.Add(new User()
             {
-                Name = "",
+                Name = "ulla",
                 Password = "myPassword1234",
-                Role = "Hygien Tekniker",
+                Role = "Hygien-Tekniker",
                 Salary = 24000
             });
             mockList.Add(new Admin()
@@ -25,7 +25,7 @@ namespace SvanteSarahsApp.Utility
                 Role = "Admin",
                 IsAdmin = true
 
-            }) ;
+            });
 
             return mockList;
         }
