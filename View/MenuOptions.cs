@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SvanteSarahsApp.Utility;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -20,12 +21,12 @@ namespace SvanteSarahsApp.View
 
             if(input == "q" )
             {
-                // boolMethod()
+                Validator.SetMainMenuValuation(false);
             }
-            if(Controller.User.FindUser())
-            {
+            //if(Controller.IAccount.FindUser())
+            //{
 
-            }
+            //}
             else
             {
                 Console.WriteLine("Username does not exist");

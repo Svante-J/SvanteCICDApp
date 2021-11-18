@@ -25,9 +25,9 @@ namespace SvanteSarahsApp.Controller
             this.IsAdmin = false;
         }
 
-        internal static bool FindUser()
+        internal static bool FindUser(string name, string password, List<User> userList)
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         public User()

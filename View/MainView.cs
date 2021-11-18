@@ -15,7 +15,8 @@ namespace SvanteSarahsApp.View
         {
             MockData.mockList = MockData.FillMockList();// användare o Admin
             MenuOptions.Welcome();
-            while (true) { 
+            Validator.SetMainMenuValuation(true);
+            while (Validator.GetMainMenuValuation()) { 
             MenuOptions.LoggIn();
 
             }

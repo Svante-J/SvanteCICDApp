@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity.Core.Objects;
+using System.Linq;
 using System.Text;
 
 namespace SvanteSarahsApp.Controller
@@ -12,10 +13,24 @@ namespace SvanteSarahsApp.Controller
         public string Name { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
-        
+        public int Salary { get; set; }
+
         public bool IsAdmin { get; set; }
         
         protected int GetNextID() => ++CurrentID;
+
+        public static IAccount FindUser(string name, string password, List<IAccount> userList)
+        {
+            var query =
+                from user in userList
+                where
+                (user.Name != null && user.Name.Contains(name)) ||
+                (user.Password != null && user.Password.Contains(password))
+                select user;
+
+            return null;
+            
+        }
 
         public static void PrintAll(List<IAccount> list)
         {
