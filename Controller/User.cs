@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 
 namespace SvanteSarahsApp.Controller
 {
-      class User : IAccount
+    class User : IAccount
     {
         public static int CurrentID { get; set; }
         public int ID { get; set; }
@@ -16,7 +15,7 @@ namespace SvanteSarahsApp.Controller
 
         public User(string name, string password)
         {
-            
+
             this.ID = GetNextID();
             this.Name = name;
             this.Password = password;

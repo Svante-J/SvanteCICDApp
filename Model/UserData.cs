@@ -1,7 +1,5 @@
 ﻿using SvanteSarahsApp.Controller;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SvanteSarahsApp.Model
 {

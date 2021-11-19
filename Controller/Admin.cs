@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SvanteSarahsApp.Controller
+﻿namespace SvanteSarahsApp.Controller
 {
     class Admin : IAccount
     {
@@ -16,15 +12,15 @@ namespace SvanteSarahsApp.Controller
         public bool IsAdmin { get; set; }
 
         public Admin(string name, string password)
-    {
+        {
 
-        this.ID = GetNextID();
-        this.Name = name;
-        this.Password = password;
-        this.Role = "clerk";
-        
-        this.IsAdmin = false;
-    }
+            this.ID = GetNextID();
+            this.Name = name;
+            this.Password = password;
+            this.Role = "clerk";
+
+            this.IsAdmin = false;
+        }
         public Admin()
         {
             this.ID = GetNextID();

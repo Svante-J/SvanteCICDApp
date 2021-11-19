@@ -1,7 +1,5 @@
 ﻿using SvanteSarahsApp.Utility;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SvanteSarahsApp.View
 {
@@ -19,7 +17,7 @@ namespace SvanteSarahsApp.View
         {
             string input = Console.ReadLine().ToLower();
 
-            if(input == "q" )
+            if (input == "q")
             {
                 Validator.SetMainMenuValuation(false);
             }

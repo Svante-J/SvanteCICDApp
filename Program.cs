@@ -1,14 +1,13 @@
-﻿using System;
-using SvanteSarahsApp.View;
+﻿using SvanteSarahsApp.View;
 
 namespace SvanteSarahsApp
 {
     public class Program
     {
-         public static void Main()
-         {
-             MainView startAppLogic = new MainView();
-             startAppLogic.Run();
-         }
+        public static void Main()
+        {
+            MainView startAppLogic = new MainView();
+            startAppLogic.Run();
+        }
     }
 }

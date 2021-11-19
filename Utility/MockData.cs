@@ -1,7 +1,5 @@
 ﻿using SvanteSarahsApp.Controller;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SvanteSarahsApp.Utility
 {
@@ -29,6 +27,6 @@ namespace SvanteSarahsApp.Utility
 
             return mockList;
         }
-       
+
     }
 }
