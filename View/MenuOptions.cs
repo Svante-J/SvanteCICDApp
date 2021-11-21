@@ -51,10 +51,20 @@ namespace SvanteSarahsApp.View
         public static void AdminMenu()
         {
             Console.WriteLine("admin stuff");
+                //            a.Allt som användare kan göra förutom att ta bort sin egna användare.
+                //b.Se aktuella användare och deras lösenord.
+                //c.Admin skall kunna skapa användare lokalt. Användare skall ha användarnamn och
+                //lösenord, dessa måste bestå av både text och siffror.
+                //d.Ta bort användare från systemet genom att skriva ett användarnamn och tillhörande
+                //lösenord.
+                        
         }
         public static void UserMenu()
         {
             Console.WriteLine("user stuff");
+            //            a.Se aktuell lön.
+            //b.Roll i företaget.
+            //c.Ta bort sin egna användare genom att skriva in sitt användarnamn och lösenord.
         }
     }
 }
