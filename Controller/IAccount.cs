@@ -17,16 +17,25 @@ namespace SvanteSarahsApp.Controller
 
         protected int GetNextID() => ++CurrentID;
 
-        public static IAccount FindUser(string name, string password, List<IAccount> userList)
-        {
-            var query =
-                from user in userList
-                where
-                (user.Name != null && user.Name.Contains(name)) ||
-                (user.Password != null && user.Password.Contains(password))
-                select user;
+        //public static IAccount FindUser(string name, string password, List<IAccount> userList)
+        //{
+          
+        //    var test = userList.Where(x => x.Name == name && x.Password == password).FirstOrDefault();
+        //    Utility.LoggedInUser.SetActiveUser(test);
+        //    return test;
 
-            return null;
+        //}
+        public static bool FindUser(string name, string password, List<IAccount> userList)
+        {
+
+            var test = userList.Where(x => x.Name == name && x.Password == password).FirstOrDefault();
+            Utility.LoggedInUser.SetActiveUser(test);
+            if(test != null)
+            {
+                Utility.LoggedInUser.SetActiveUser(test);
+                return true;
+            }
+            return false;
 
         }
 

@@ -19,6 +19,15 @@ namespace SvanteSarahsApp.View
 
             }
 
+            while (Validator.GetAdminMenuValuation())
+            {
+                MenuOptions.AdminMenu();
+            }
+
+            while (Validator.GetUserMenuValuation())
+            {
+                MenuOptions.UserMenu();
+            }
 
         }
     }
