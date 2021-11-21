@@ -16,7 +16,8 @@ namespace SvanteSarahsApp
         [Test]
         public void IsPrime_InputIs1_ReturnFalse()
         {
-
+            
+          
         }
     }
 }
