@@ -9,7 +9,7 @@ namespace SvanteSarahsApp.View
 
         public void Run()
         {
-            MockData.mockList = MockData.FillMockList();// användare o Admin
+            MockData.mockList = MockData.FillMockList();// användare och Admin
             MenuOptions.Welcome();
 
             Validator.SetMainMenuValuation(true);
