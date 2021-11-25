@@ -33,6 +33,8 @@ jobs:
       uses: github/super-linter@v4.8.4
     - name: Install dependencies
       run: npm install
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   tests:
     name: Unit Testing
