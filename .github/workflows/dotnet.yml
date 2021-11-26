@@ -43,6 +43,43 @@ jobs:
       - uses: actions/checkout@v2.1.0
       - run: dotnet test
       - run: Utility/ValidatorTests.cs
+      - name: Test Reporter
+  # You may pin to the exact commit or the version.
+  # uses: dorny/test-reporter@0d00bb14cb0cc2c9b8985df6e81dd333188224e1
+  uses: dorny/test-reporter@v1.5.0
+  with:
+    # Name or regex of artifact containing test results
+    artifact: # optional
+    # Name of the check run
+    name:      
+
+    reporter: 
+    # Limits which test suites are listed. Supported options:
+     - all
+     - only-failed
+
+    list-suites: # default is all
+    # Limits which test cases are listed. Supported options:
+    - all
+    - only-failed
+    - none
+
+    list-tests: # default is all
+    # Limits number of created annotations with error message and stack trace captured during test execution.
+Must be less or equal to 50.
+
+    max-annotations: # default is 10
+    # Set this action as failed if test report contain any failed test
+    fail-on-error: # default is true
+    # Relative path under $GITHUB_WORKSPACE where the repository was checked out
+    working-directory: # optional
+    # Allows you to generate only the summary.
+If enabled, the report will contain a table listing each test results file and the number of passed, failed, and skipped tests.
+Detailed listing of test suites and test cases will be skipped.
+
+    only-summary: # optional, default is false
+    # GitHub Access Token
+    token: # optional, default is ${{ github.token }}
     
       
    
