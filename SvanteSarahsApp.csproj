@@ -8,6 +8,11 @@
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Test\" />
   </ItemGroup>
 
 </Project>
