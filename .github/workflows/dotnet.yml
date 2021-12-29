@@ -29,17 +29,19 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Super-Linter
-      uses: github/super-linter@v4.8.4
-    - name: Install dependencies
-      run: npm install
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
 
   tests:
     name: Unit Testing
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2.1.0
-      - run: dotnet test
-      - run: Utility/ValidatorTests.cs
+      - uses: actions/checkout@v2.1.0      
+      - run:  dotnet test Utility/ValidatorTests.cs
+      
+  intergration-test: 
+      name: intergrations test      
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v2.1.0 
+        - run:  dotnet test Utility/ValidatorTests.cs
+     
