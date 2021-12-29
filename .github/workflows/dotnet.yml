@@ -40,6 +40,13 @@ jobs:
     name: Unit Testing
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2.1.0
-      - run: dotnet test
-      - run: Utility/ValidatorTests.cs
+      - uses: actions/checkout@v2.1.0      
+      - run:  dotnet test Utility/ValidatorTests.cs
+      
+  intergration-test: 
+      name: intergrations test      
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v2.1.0 
+        - run:  dotnet test Utility/ValidatorTests.cs
+     
