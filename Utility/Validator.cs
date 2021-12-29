@@ -2,9 +2,9 @@
 {
     public static class Validator
     {
-        public static bool MainMenu { get; set; }
-        public static bool UserMenu { get; set; }
-        public static bool AdminMenu { get; set; }
+        private static bool MainMenu { get; set; }
+        private static bool UserMenu { get; set; }
+        private static bool AdminMenu { get; set; }
 
 
         public static bool GetMainMenuValuation()

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
-using SvanteSarahsApp.Utility;
-using System;
+using SvanteSarahsApp.Controller;
+
 
 namespace SvanteSarahsApp.Utility
 {
@@ -8,17 +8,27 @@ namespace SvanteSarahsApp.Utility
     public class ValidatorTests
     {
         [Test]
-        public void GetMainMenuValuation_StateUnderTest_ExpectedBehavior()
+        public void FindUser_IfAdmin()
         {
             // Arrange
-            
+            const string name = "admin1";
+            const string password = "admin1234";
+            const bool expected = true;
 
             // Act
-            
+            var result = IAccount.FindUser(name, password, MockData.mockList);
 
             // Assert
-            Assert.Fail();
+            Assert.AreEqual(expected, result);
         }
 
-    }   
+        //[Test]
+        //public void FindUser_Findadmin()
+        //{
+        //    string expected = "admin1"; //admin1234
+
+
+        //}
+
+    }
 }
