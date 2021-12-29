@@ -15,9 +15,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="SvanteSarahsApp.Controller.User">
-    <Position X="1.5" Y="3.75" Width="1.5" />
+    <Position X="3.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACAQAAAAgBAAEAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAACAQAAAAgBAEFAAAAAQACAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Controller\User.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
