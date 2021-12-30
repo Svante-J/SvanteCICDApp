@@ -1,0 +1,13 @@
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.exe
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.deps.json
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.runtimeconfig.json
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.runtimeconfig.dev.json
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.dll
+D:\OneDrive\CICD kurs\SvanteSarahsApp\bin\Debug\netcoreapp3.1\SvanteSarahsApp.pdb
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.csprojAssemblyReference.cache
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.AssemblyInfoInputs.cache
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.AssemblyInfo.cs
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.csproj.CoreCompileInputs.cache
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.dll
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.pdb
+D:\OneDrive\CICD kurs\SvanteSarahsApp\obj\Debug\netcoreapp3.1\SvanteSarahsApp.genruntimeconfig.cache
