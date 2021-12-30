@@ -21,7 +21,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 3.1.x
        
     - name: Restore dependencies
       run: dotnet restore
@@ -35,13 +35,23 @@ jobs:
     name: Unit Testing
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2.1.0      
-      - run:  dotnet test SvantesTester/UnitTest1.cs
-      
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.x
+      - name: Test
+        run: dotnet test --verbosity normal
+         
   intergration-test: 
       name: intergrations test      
       runs-on: windows-latest
       steps:
-        - uses: actions/checkout@v2.1.0 
-        - run:  dotnet test SvantesTester/UnitTest1.cs
+       - uses: actions/checkout@v2
+       - name: Setup .NET
+         uses: actions/setup-dotnet@v1
+         with:
+          dotnet-version: 3.1.x
+       - name: Test
+         run: dotnet test --verbosity normal
      
