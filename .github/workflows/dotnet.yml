@@ -36,12 +36,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2.1.0      
-      - run:  dotnet test Utility/ValidatorTests.cs
+      - run:  dotnet test SvantesTester/UnitTest1.cs
       
   intergration-test: 
       name: intergrations test      
       runs-on: windows-latest
       steps:
         - uses: actions/checkout@v2.1.0 
-        - run:  dotnet test Utility/ValidatorTests.cs
+        - run:  dotnet test SvantesTester/UnitTest1.cs
      
