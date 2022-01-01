@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 
 namespace SvanteSarahsApp.Controller
 {
@@ -27,10 +28,14 @@ namespace SvanteSarahsApp.Controller
         //}
         public static bool FindUser(string name, string password, List<IAccount> userList)
         {
+            //var test = (from user in userList
+            //    where user.Name == name
+            //    where user.Password == password
+            //    select user).FirstOrDefault();
 
             var test = userList.Where(x => x.Name == name && x.Password == password).FirstOrDefault();
             Utility.LoggedInUser.SetActiveUser(test);
-            if(test != null)
+            if (test != null)
             {
                 Utility.LoggedInUser.SetActiveUser(test);
                 return true;

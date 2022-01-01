@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj": {}
+    "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvantesTester\\SvantesTester.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
+    "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
+        "projectUniqueName": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
         "projectName": "SvanteSarahsApp",
-        "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
-        "packagesPath": "C:\\Users\\svanths\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\obj\\",
+        "projectPath": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
+        "packagesPath": "C:\\Users\\svant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\svanths\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\svant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,32 +49,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj": {
+    "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvantesTester\\SvantesTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj",
+        "projectUniqueName": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvantesTester\\SvantesTester.csproj",
         "projectName": "SvantesTester",
-        "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj",
-        "packagesPath": "C:\\Users\\svanths\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\obj\\",
+        "projectPath": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvantesTester\\SvantesTester.csproj",
+        "packagesPath": "C:\\Users\\svant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvantesTester\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\svanths\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\svant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
-                "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj"
+              "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
+                "projectPath": "C:\\Users\\svant\\OneDrive\\CICD\\SvanteSarahsApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj"
               }
             }
           }
@@ -132,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
