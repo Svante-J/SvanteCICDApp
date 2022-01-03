@@ -12,7 +12,7 @@ namespace SvanteSarahsApp.Utility
             mockList.Add(new User()
             {
                 Name = "ulla",
-                Password = "myPassword1234",
+                Password = "mypassword1234",
                 Role = "Hygien-Tekniker",
                 Salary = 24000
             });

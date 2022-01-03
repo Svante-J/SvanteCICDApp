@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SvanteSarahsApp.Utility
 {
-    class LoggedInUser
+    public class LoggedInUser
     {
         public static IAccount ActiveUser { get; set; }
 

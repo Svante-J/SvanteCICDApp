@@ -15,6 +15,7 @@ namespace SvanteSarahsApp.View
 
         public static void LoggIn()
         {
+
             Console.WriteLine("enter username");
             string input = Console.ReadLine().ToLower();
             Console.WriteLine("enter password");

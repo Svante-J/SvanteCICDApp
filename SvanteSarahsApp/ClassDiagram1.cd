@@ -22,5 +22,26 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="SvanteSarahsApp.Utility.LoggedInUser">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>Utility\LoggedInUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SvanteSarahsApp.Utility.MockData">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Utility\MockData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SvanteSarahsApp.Utility.Validator">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAAAQAAAAAAAAAABQAIAACAAAAAEIAAAAAAA=</HashCode>
+      <FileName>Utility\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
