@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj": {}
+    "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\SvantesTester.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
+    "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
         "projectName": "SvanteSarahsApp",
-        "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
+        "projectPath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj",
         "packagesPath": "C:\\Users\\svanths\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\obj\\",
+        "outputPath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\svanths\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj": {
+    "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\SvantesTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\SvantesTester.csproj",
         "projectName": "SvantesTester",
-        "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj",
+        "projectPath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\SvantesTester.csproj",
         "packagesPath": "C:\\Users\\svanths\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\obj\\",
+        "outputPath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\svanths\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
-                "projectPath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj"
+              "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj": {
+                "projectPath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvanteSarahsApp\\SvanteSarahsApp.csproj"
               }
             }
           }

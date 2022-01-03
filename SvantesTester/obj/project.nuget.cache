@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SO9InwMgy52AGUrEyrqY1cFZ0bIb/+7GEcIWAERcL4zKGxt/I1ebFwHvztgvYa3mFXYIBlE5RaZcUrd34XTsjw==",
+  "dgSpecHash": "mfEsJMBiG3b4JWZA9SMBc/DH8Tctxu/UpA1XhX/Mc3lpN2/krYAcYwOR5XxHE6wyrVTeZDDL/PaqFti/uQxKcw==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive\\CICD kurs\\RootSvanteApp\\SvantesTester\\SvantesTester.csproj",
+  "projectFilePath": "D:\\OneDrive\\Inlämning 1 cicd\\SvanteCICDApp\\SvantesTester\\SvantesTester.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\svanths\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\svanths\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
