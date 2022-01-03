@@ -41,7 +41,7 @@ jobs:
         with:
           dotnet-version: 3.1.x
       - name: Test
-        run: dotnet test --verbosity normal
+        run: dotnet test SvantesTester/UnitTest1.cs
          
   intergration-test: 
       name: intergrations test      
@@ -53,5 +53,5 @@ jobs:
          with:
           dotnet-version: 3.1.x
        - name: Test
-         run: dotnet test --verbosity normal
+         run: dotnet test SvantesTester/IntergrationTest.cs
      
