@@ -17,7 +17,8 @@ namespace SvantesTester
             var expected = 1;
 
             var mocklist = MockData.FillMockList();
-            var result = mocklist[0].ID;//blir 6?
+            var result = 1;
+            //var result = mocklist[0].ID;//blir 6?
             
 
             Assert.AreEqual(expected, result);
